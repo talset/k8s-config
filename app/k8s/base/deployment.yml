@@ -14,11 +14,11 @@ spec:
       labels:
         app.kubernetes.io/name: app
     spec:
-      serviceAccountName: app
       restartPolicy: Always
       containers:
       - name: app
-        image: cycloid/step-by-step-nginx
+        image: talset/test
+        # from  cycloid/step-by-step-nginx
         imagePullPolicy: IfNotPresent
         ports:
         - name: http

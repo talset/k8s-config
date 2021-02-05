@@ -11,4 +11,4 @@ spec:
         - name: REPO
           value: "https://github.com/cycloid-community-catalog/docs-step-by-step-stack"
         - name: COMMIT
-          value: "origin/master"
+          value: "origin/code"
